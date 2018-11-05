@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="is.css">
+</head>
+
+<body>
+    <div id="display"></div>
+
+    <script>
+        var i, fruits, text = '<ul>';
+        var fruits = ["Banana", "Orange", "Apple", "Mongo"];
+        var myBoy ="Hello";
+        var myGirl ="Morning ";
+        var clild = myBoy.concat(myGirl);
+
+        //fruits.push("Lemon");
+        //fruits[fruits.length] = "Coconut";
+        //var x=fruits.pop();
+        //alert(x);
+        //fruits.shift();
+        //fruits.unshift("Alice");//add value in beginnning
+        //fruits[0]='Helos';
+        //delete fruits[0];//undify
+    //fruits.splice(1,2,"Lemon","Kiwi"); (1=add index , 2=deletecont var delete after add 1)
+        //var removed = fruits.splice(0, 1);
+        for (i = 0; i < fruits.length; i++) {
+            text += "<li>" + fruits[i] + "</li>";
+
+        }
+        text += "</ul>";
+        document.getElementById('display').innerHTML = clild;
+    </script>
+</body>
+
+</html>
