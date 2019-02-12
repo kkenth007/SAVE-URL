@@ -8,3 +8,7 @@ https://www.nimo.tv/rov
 
 Score board:
 https://docs.google.com/document/d/1WHBCcG6VtgA5l1qul06WaTDkytpa2jyACBprkVKRlXM/edit?usp=sharing
+
+
+etc: 
+https://myplaypost.com/free-fire-thailand-championship-2019/
